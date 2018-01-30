@@ -46,7 +46,7 @@ int16_t main(void) {
     LED2 = ON;
 
     while (1) {
-        LED1 = (SW2 == 0) ? ON : OFF;   // turn LED1 on if SW2 is pressed 
+        LED1 = (D2 == 0) ? OFF : ON;   // turn LED1 on if SW2 is pressed 
         LED3 = (SW3 == 0) ? ON : OFF;   // turn LED3 on if SW3 is pressed
     }
 }

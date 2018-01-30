@@ -97,7 +97,7 @@ Installation Under Mac OSX
    and build it.  If you have the Xcode command-line tools installed, this 
    should be as simple as entering the top-level directory containing the 
    source code and performing the typical sequence
-
+cd 
        ./configure
        make
        sudo make install
